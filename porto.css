@@ -155,7 +155,7 @@ body{
 .card-perkenalan-dalem p{
     font-family: monospace;
     color:#CE9178;
-    font-size: clamp(13px, 2vw, 25px);
+    font-size: clamp(12px, 2vw, 25px);
     padding-left: 30px;
 }
 
