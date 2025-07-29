@@ -1,0 +1,532 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.wrapper {
+    max-width: 1500px;
+    max-height: 8000px;
+    margin: 0 auto;
+    padding: 0
+}
+
+
+header{
+    z-index: 9999 ;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(to right, #292929, #1F1F1F);
+    margin: 0px;
+    padding: 6px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Mengatur elemen kiri dan kanan sejauh mungkin */
+    align-items: center; /* Agar elemen sejajar secara vertikal */
+    padding: 10px 20px;
+}
+
+.navbar-kiri{
+    font-family: monospace;
+    color: aliceblue;
+    font-size: 1em;
+}
+
+.navbar-kanan{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-kanan a{
+    text-decoration: none;
+    color: #8F8F8F;
+    font-family:monospace;
+    padding: 10px 10px;
+    font-size: 1em;
+}
+
+.navbar-kanan a:hover{
+    color: goldenrod;
+    border-bottom:2px solid goldenrod;
+    transition: 0.2s;
+}
+
+/*-----------------------------------------------*/
+
+body{
+    background: linear-gradient(to right, #292929, #1F1F1F);
+    width: 100%;
+    margin: 0;
+}
+
+/*----------------------------------------------*/
+
+.homepage{
+    padding-top: 200px;
+}
+
+@keyframes ZoomIn{
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.card-perkenalan{
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+    animation: ZoomIn 0.35s ease-out forwards;
+}
+
+.card-perkenalan{
+    margin: 0 auto;
+    padding: 18px;
+    height: 300px;
+    width:60%;
+    background-color: #3B3B42;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+
+.judul-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot-merah{
+    height:2vw;
+    width: 2vw;
+    border-radius: 20px;
+    background-color: red;
+    margin-right: 8px;
+}
+
+.dot-kuning{
+    height:2vw;
+    width: 2vw;
+    border-radius: 20px;
+    background-color: yellow;
+    margin-right: 8px;
+}
+
+.dot-hijau{
+    height:2vw;
+    width: 2vw;
+    border-radius: 20px;
+    background-color: green;
+}
+
+.naufal-fakhrie-tengah{
+    font-size: 1.8vw;
+    color: #DBDBDB;
+    font-family: monospace;
+    padding-right: 35%;
+}
+
+.dot{
+    display: flex;
+    align-items: center;
+}
+
+.card-perkenalan-dalem{
+    height: 230px;
+    width: 100%;
+    margin: auto;
+    margin: 10px -2% 0% 0%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1F1F2E;
+}
+
+.card-perkenalan-dalem h1{
+    color:skyblue;
+    font-size: clamp(15px, 2.5vw, 28px);
+    font-family: monospace;
+}
+
+.card-perkenalan-dalem p{
+    font-family: monospace;
+    color:#CE9178;
+    font-size: clamp(13px, 2vw, 25px);
+    padding-left: 30px;
+}
+
+/*----------------------------------------------------*/
+.skillpage{
+    min-height: 100vh;
+    margin-top: 280px;
+    padding-top: 170px;
+}
+
+.card-skill{
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    background-color:#1F1F1F; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 2% 0 2%;  
+}
+
+.judul-skillpage {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color:#DBDBDB;
+    font-family: monospace;
+    font-size: 3em;
+    margin-bottom: 2%;
+}
+
+.logo-skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5% 2% 0px 2% ;
+    background-color: antiquewhite;
+}
+
+.html-logo{
+    height:150px;
+    opacity: 0.3;
+}
+
+.html-logo:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.css-logo{
+    height:150px;
+    opacity: 0.3;
+}
+
+.css-logo:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.js-logo{
+    height:190px;
+    margin-top: -13px;
+    opacity: 0.3;
+}
+
+.js-logo:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.python-logo{
+    height:150px;
+    opacity: 0.3;
+}
+
+.python-logo:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+/*-----------------------------*/
+
+.pageexperience{
+    min-height: 100vh;
+    margin-top: 250px;
+    padding-top: 30px;
+}
+
+.judul-experience{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color:#DBDBDB;
+    font-family: monospace;
+    font-size: 3em;
+    padding-top: 100px;
+}
+
+.deret-experience-card{
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-experience{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+    background-color:#1F1F2E; 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 2% 0 0;  
+}
+
+.card-experience:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.card-experience h1{
+    color: #8F8F8F;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.card-experience h2{
+    color: #808080;
+    font-size: 1em;
+    margin: auto;
+}
+
+.deskripsi-experience{
+  position: fixed;
+  top: 20%;
+  left: 15%;
+  width: 70vw;
+  height: 50vh;
+  padding: 2% 2% 0px 0px;
+  background-color: whitesmoke; /* semi transparan */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  z-index: 999;
+}
+
+.atas-deskripsi-experience{
+    display: flex;
+    justify-content: space-between;
+    padding-left:2% ;
+}
+
+.atas-deskripsi-experience h1{
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-size: clamp(15px, 2vw, 25px);
+}
+
+.card-experience td{
+    text-align: center;
+}
+
+.row-gambar-experience{
+    height: 100px;
+}
+
+.row-judul-experience{
+    height: 50px;
+}
+
+.row-subjudul-experience{
+    height: 50px;
+}
+
+
+#gambar-experience{
+    width: 60%;
+    border-radius: 20px;
+}
+
+.space-kiri-deskripsi{
+    height: 10%;
+    width: 10%;
+}
+
+.close-button-deskripsi{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.7em;
+    padding: 1% 2% 1% 2%;
+    margin-top: -2.6%;
+    margin-right: -2.7%;
+    background-color: rgba(0, 0, 0, 0);;
+    border:1px solid whitesmoke;
+}
+
+.close-button-deskripsi:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    border:1px solid red;
+    color: whitesmoke;
+    background-color: red;
+}
+
+.isi-deskripsi-experience{
+    height: 40vh;
+    font-size: clamp(11.2px, 1.3vw, 20px);
+    font-family: monospace;
+    color: #808080;
+    background-color: rgba(0, 0, 0, 1);;
+    padding: 2%;
+}
+
+/*-----------------------------------*/
+.projectpage{
+    min-height: 100vh;
+    margin-top: 250px;
+    padding-top: 30px;
+}
+
+.judul-project{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color:#DBDBDB;
+    font-family: monospace;
+    font-size: 3em;
+    padding-top: 100px;
+}
+
+.pick-group-individual{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
+
+.group{
+    padding: 1vw;
+    color: #808080;
+    background-color: #1F1F2E;
+    border-radius: 5px;
+    border: 1px solid #3B3B42
+
+}
+
+.group:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    border:1px solid #DBDBDB;
+    box-shadow: 0 2px 4px rgba(247, 247, 247);
+}
+
+.individual{
+    padding: 1vw;
+    color: #808080;
+    background-color: #1F1F2E;
+    border-radius: 5px;
+    border: 1px solid #3B3B42
+
+}
+
+.individual:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    border:1px solid #DBDBDB;
+    box-shadow: 0 2px 4px rgba(247, 247, 247);
+}
+
+.tempat-project{
+    padding-top: 5vw;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.tempat-project p{
+    color: #8F8F8F;
+    font-size: 2em;
+}
+
+/*---------------------------------------------*/
+.footer{
+    height: 200px;
+    width: 100vw;
+    background-color: #1F1F1F;
+}
+
+.footer-atas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-kiri{
+    padding-left: 3vw;
+    height: 200px;
+    width: 50vw;
+    padding-top: 1vw;
+}
+
+.footer-kiri h1{
+    font-size: 2em;
+    color:#DBDBDB;
+    font-family: monospace;
+}
+
+.footer-kanan{
+    height: 200px;
+    width: 50vw;
+}
+
+.logo-sosmed{
+    display: flex;
+    align-items: center;
+    padding-top: 1vw;
+}
+
+#logo-whatsapp{
+    font-size: 1.5em;
+    color: #8F8F8F;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 0.5vw;
+}
+
+#logo-email{
+    font-size: 1.5em;
+    color: #8F8F8F;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 0.5vw;
+    margin-left: 4vw;
+}
+
+#logo-linkedin{
+    font-size: 1.5em;
+    color: #8F8F8F;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 0.5vw;
+    margin-left: 4vw;
+}
+
+#logo-github{
+    font-size: 1.5em;
+    color: #8F8F8F;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 0.5vw;
+    margin-left: 4vw;
+}
+
+.footer-bawah{
+    height: 50px;
+    width: 100vw;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bawah h1{
+    font-size: 1em;
+    color:#808080;
+}
+

@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "nama_event":"Studying at IPB University",
+        "sebagai":"Software Engineering",
+        "deskripsi":"I was a Competition Staff for PENDIKAR 2025, a national online competition organized by BEM Vocational School IPB University, featuring categories such as essay writing, infographic design, SDGs innovation, and business planning. I specifically handled the SDGs innovation competition, which was joined by over 60 participants from universities across Indonesia. Together with my team, I managed the technical aspects of the event, ensured each stage ran smoothly, and guided participants throughout the competition to help them complete every phase without issues through clear coordination and active support.",
+        "dokumentasi":"asset/pawPatrol3.jpeg"
+    },
+
+
+    {
+        "id":2,
+        "nama_event":"Pendikar 2025",
+        "sebagai":"Competition Staff",
+        "deskripsi":"I was a Competition Staff for PENDIKAR 2025, a national online competition organized by BEM Vocational School IPB University, featuring categories such as essay writing, infographic design, SDGs innovation, and business planning. I specifically handled the SDGs innovation competition, which was joined by over 60 participants from universities across Indonesia. Together with my team, I managed the technical aspects of the event, ensured each stage ran smoothly, and guided participants throughout the competition to help them complete every phase without issues through clear coordination and active support.",
+        "dokumentasi":"asset/pawPatrol3.jpeg"
+    },
+
+    {
+        "id":3,
+        "nama_event":"SRD 2025",
+        "sebagai":"Competition Staff",
+        "deskripsi":"I was a Competition Staff for PENDIKAR 2025, a national online competition organized by BEM Vocational School IPB University, featuring categories such as essay writing, infographic design, SDGs innovation, and business planning. I specifically handled the SDGs innovation competition, which was joined by over 60 participants from universities across Indonesia. Together with my team, I managed the technical aspects of the event, ensured each stage ran smoothly, and guided participants throughout the competition to help them complete every phase without issues through clear coordination and active support.",
+        "dokumentasi":"asset/pawPatrol3.jpeg"
+    },
+
+    {
+        "id":4,
+        "nama_event":"SIKRAB TPL 62",
+        "sebagai":"Group Coordinator Staff",
+        "deskripsi":"I was a Competition Staff for PENDIKAR 2025, a national online competition organized by BEM Vocational School IPB University, featuring categories such as essay writing, infographic design, SDGs innovation, and business planning. I specifically handled the SDGs innovation competition, which was joined by over 60 participants from universities across Indonesia. Together with my team, I managed the technical aspects of the event, ensured each stage ran smoothly, and guided participants throughout the competition to help them complete every phase without issues through clear coordination and active support.",
+        "dokumentasi":"asset/pawPatrol3.jpeg"
+    }
+]
